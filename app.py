@@ -7,7 +7,7 @@ load_dotenv()  # Load environment variables from .env file
 
 API_KEY = os.getenv("Weather_API_KEY")  # Retrieve API key from environment variables
 st.set_page_config(page_title="Weather App", page_icon="🌞")
-st.title("Weather App")
+st.title("Weather App!")
 st.write("Enter a city name and click 'Get Weather' to get the current weather information.")
 city = st.text_input("Enter City Name:")
 
